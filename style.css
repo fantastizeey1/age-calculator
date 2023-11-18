@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+body{
+    background-color: whitesmoke;
+    
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px 20px 150px 20px;
+    height: 600px;
+    width: 600px;
+    margin: 50px auto;
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif ;
+
+}
+form{
+    
+    display: inline-block !important;
+    flex-direction: column;
+    margin: 50px 30px 5px;
+    
+}
+label {
+    margin-right: 110px;
+    color: hsl(0, 1%, 44%);
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  
+
+  input[type="number"] {
+    padding: 10px;
+    margin: 10px 32px 5px 2px;
+    width: 80px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 1%, 81%);
+    color: hsl(0, 1%, 44%);
+    font-size: x-large;
+    border-color: hsl(0, 1%, 81%);
+  } 
+  
+  ::placeholder {
+    color: hsl(0, 1%, 44%);
+    font-size: x-large;
+  }
+  input:not(:focus):not(:placeholder-shown):invalid {
+    border-color: red;
+  }
+  .error-message{
+    margin: 10px 30px 2px;
+    color: red;
+  }
+  .line{
+    margin: 50px 50px 10px 30px;
+    background-color: hsl(0, 1%, 44%);
+    width: 520px;
+    height: 1px;
+    float: left;
+    display: inline;
+    
+  }
+  
+  button{
+    background-color: hsl(259, 100%, 65%);
+    padding: 5px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-right: ;
+    float: right;
+    border: solid 1px transparent;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: black;
+    
+  }
+  h2{
+    margin: 0 0 0 30px;
+    padding: 5px;
+    color: hsl(0, 0%, 8%);
+    font-size: 80px;
+    font-weight: 800;
+
+  }
+span{
+    color: hsl(259, 100%, 65%);
+    }
+
+.result h2{
+   margin: 100px 0 0 30px;
+    padding: 20px;
+    color: hsl(0, 0%, 8%);
+    font-size: 80px;
+    font-weight: 500;
+    display: inline !important;
+}
+
+
+  /* Style for invalid inputs */
+.invalid {
+    border-color: red; /* To make the input border red */
+    color: red; /* To make the label text red */
+    font-size: 80px;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 375px) {
+    main {
+      width: 90%; /* Adjust main width for smaller screens */
+      margin: 50px auto; /* Change margin for better centering on smaller screens */
+    }
+  
+    form {
+      margin: 5px; /* Adjust margin for the form */
+    }
+  
+    label {
+      margin-left: 5px; /* Remove right margin for labels */
+      margin-right: 60px;
+      margin-bottom: 20px; /* Adjust bottom margin for labels */
+    }
+  
+    input[type="number"] {
+      margin: 20px 0 20px 0; /* Adjust margin for inputs */
+      width: 60px; /* Adjust input width */
+    }
+  
+    ::placeholder {
+      font-size: small; /* Adjust placeholder font size */
+    }
+  
+    .line {
+      margin: 30px 20px 10px; /* Adjust margin for the line */
+      width: calc(100% - 40px); /* Adjust line width */
+      background-color: hsl(0, 2%, 72%);
+    }
+  
+    button {
+    width: 60px; /* Adjust button size */
+    height: 60px; /* Adjust button size */
+    margin-top: -30px; /* Adjust button margin */
+    margin-left: -30px; /* Center the button horizontally */
+    transform: translateX(-200%); /* Adjust button position */
+    }
+  
+    h2 {
+      font-size: 40px; /* Adjust heading font size */
+      margin: 0 0 0 20px; /* Adjust heading margin */
+      font-weight: bolder;
+    }
+  
+    .result h2 {
+      margin: 60px 0 0 20px; /* Adjust margin for result */
+      font-size: 60px; /* Adjust result font size */
+    }
+  
+    /* Additional styles or adjustments as needed */
+  }
+  

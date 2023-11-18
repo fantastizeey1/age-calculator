@@ -1,0 +1,99 @@
+/* Stylesheet for Age Calculator App */
+
+/* Basic styles */
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  /* CSS for styling the form */
+  #ageCalculatorForm {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: max-content 1fr; /* Adjust column width as needed */
+  }
+  
+  label {
+    display: table-row;
+    color: #FFD700; /* Yellow color for labels */
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Placeholder color */
+  /* Note: This might not work in all browsers */
+  input[type="number"]::placeholder {
+    color: #FFD700; /* Yellow color for placeholders */
+  }
+  
+  /* Style for labels to appear on the same row */
+  #ageCalculatorForm label {
+    grid-column: 1 / 2; /* Span one column */
+  }
+  
+  /* Style for inputs to appear below labels */
+  #ageCalculatorForm input[type="number"] {
+    grid-column: 1 / -1; /* Span all columns */
+  }
+  
+  
+  
+  
+  
+  form {
+    
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block !important;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Result display */
+  #result {
+    font-size: 18px;
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 600px) {
+    form {
+      max-width: 100%;
+    }
+  } 
+  
+  */
+  
